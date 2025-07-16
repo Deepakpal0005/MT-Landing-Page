@@ -5,7 +5,7 @@ import { FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa6";
-import logo from "../assets/TMlogo.jpg"; // Make sure this path matches your folder structure
+import logo from "/TMlogo.jpg"; // Make sure this path matches your folder structure
 
 const Home = () => {
   const [formData, setFormData] = useState({
